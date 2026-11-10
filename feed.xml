@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>OptiFans - Charlas y anecdotsas de OptiJuegos</title>
+    <title>OptiFans - Charlas y anecdotas de OptiJuegos</title>
     <link>https://sirtailsko.github.io/opt-podcast/</link>
     <language>es-ar</language>
     <description>Podcast de charlas y anecdotas de OptiJuegos</description>
@@ -11,29 +11,29 @@
     <!-- Episodio 3 -->
     <item>
       <title>ESTAN OPTIMIZANDO DISCORD Y EPIC GAMES</title>
-      <description>Hablamos sobre cómo aprovechar hardware reciclado para montar servicios web.</description>
+      <description>OptiJuegos analiza una tendencia positiva en la industria del software: el cambio hacia una mayor optimización mediante la reescritura de aplicaciones utilizando el lenguaje de programación Rust, Siendo Los Puntos clave De Que Discord y Epic Games que ambas compañías han comenzado a reconstruir sus aplicaciones de escritorio en Rust para reducir drásticamente el consumo de memoria RAM, En el caso de Discord, la nueva versión promete un consumo mucho menor (aproximadamente 290 MB) frente a la versión tradicional basada en Electron, Rust es un lenguaje de bajo nivel, lo que hace que las aplicaciones sean más eficientes y difíciles de modear, algo que él considera positivo para la estabilidad oficial del software, mencionando que el uso de IA está acelerando estos procesos de "re-codeo" y optimización, El Problema Es Que como muchas aplicaciones modernas (como WhatsApp o incluso sitios web como TikTok) dependen excesivamente de arquitecturas webview pesadas, lo que resulta en un consumo ineficiente de recursos, En conclusión, Opti espera que estos movimientos marquen un precedente para que más empresas abandonen las aplicaciones pesadas basadas en web y vuelvan a desarrollar software nativo más ligero y rápido (generado con gemini ai)</description>
       <pubDate>Mon, 09 Nov 2026 14:32:00 GMT</pubDate>
       <enclosure url="https://sirtailsko.github.io/opt-podcast/ep3.opus" length="3478547" type="audio/ogg"/>
       <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep3.opus</guid>
-      <itunes:duration>18:20</itunes:duration>
+      <itunes:duration>05:49</itunes:duration>
     </item>
 
     <item>
       <title>DEBATE DE WINDOWS EXTREMADAMENTE CRITICO CON TOMEX</title>
-      <description>Hablamos sobre cómo aprovechar hardware reciclado para montar servicios web.</description>
+      <description>Opti Presenta un debate crítico Con Tomex sobre la evolución y el estado actual de los sistemas operativos de *Microsoft*, particularmente desde Windows 7 hasta Windows 11, Los Puntos clave discutidos Son La Crítica a la optimización, Mencionando De Que cuestionan las afirmaciones de Microsoft sobre la optimización de Windows 11 para equipos con 8GB de RAM, comparándolo con la eficiencia de MacOS y Linux y Se considera a Windows 7 como el punto máximo del sistema operativo, criticando los cambios de interfaz posteriores que los usuarios perciben como innecesarios o poco funcionales y Se analiza cómo Windows 8 fue una transición fallida orientada a tablets que frustró a los usuarios de escritorio y se critica la política de Microsoft de forzar actualizaciones a Windows 10 y 11 ademas de debatir si Microsoft debería lanzar un Windows 12 que elimine bloatware, destacando que actualmente tanto Apple (MacOS) como Linux ofrecen alternativas sólidas que están ganando terreno (generado con gemini ai)</description>
       <pubDate>Fri, 06 Nov 2026 12:13:00 GMT</pubDate>
       <enclosure url="https://sirtailsko.github.io/opt-podcast/ep2.opus" length="3009528" type="audio/ogg"/>
       <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep2.opus</guid>
-      <itunes:duration>18:20</itunes:duration>
+      <itunes:duration>08:06</itunes:duration>
     </item>
 
     <item>
       <title>PRESENTACION (optimizaciones, foto de perfil, switch 2, rtx 3050, entre otros!!)</title>
-      <description>Nuestra primera prueba transmitiendo audio mediante RSS puro.</description>
+      <description>El video presenta el anuncio de un nuevo canal de YouTube por parte del creador, titulado inicialmente OptiTalk y finalmente como OptiFans. A lo largo del podcast, Opti discute varios temas técnicos y de gestión de su comunidad, Siendo Crear un espacio dedicado a charlas, noticias y resúmenes de sus streams (para despues el del podcast lo pase a podcast o no se), separado de su canal principal "Optijuegos", que está enfocado en hardware y experimentos, Y Despues Analizando un gameplay de un emulador para Switch 2, destacando los problemas de rendimiento, los errores gráficos y la arquitectura, Mencionando la dificultad de recuperar sus canales baneados (OptiExtra) y relata haber recibido un reclamo de copyright de Konami (que fue una broma del topo de itakito), Y Era Obio, Los Demas Mandan Sugerencias De Foto De Perfil, Y Despues Opti Usa ChatGPT para diseñar su nueva foto de perfil, inspirándose en David Ligthman, mientras interactúa con su chat, aplicando timeouts a usuarios molestos y bromeando sobre temas de seguridad informática, Comentando brevemente sobre el peso y optimización de GTA 6 (210 GB) y las críticas hacia la tarjeta gráfica RTX 3050, a la que califica como poco potente para su precio en comparación con otras opciones (generado con gemini ai pero modificado ligeramente)</description>
       <pubDate>Thu, 05 Nov 2026 12:28:00 GMT</pubDate>
       <enclosure url="https://sirtailsko.github.io/opt-podcast/ep1.opus" length="3052534" type="audio/ogg"/>
       <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep1.opus</guid>
-      <itunes:duration>15:00</itunes:duration>
+      <itunes:duration>09:26</itunes:duration>
     </item>
 
   </channel>
