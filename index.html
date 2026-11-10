@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OptiFans - PODCAST NO OFICIAL</title>
+
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f9;
+      color: #333333;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+      background-color: #0078d4;
+      color: #ffffff;
+      padding: 25px 20px;
+      border-radius: 8px;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1em;
+      opacity: 0.9;
+    }
+
+    .btn-atras {
+      display: inline-block;
+      background-color: #e1e1e1;
+      color: #333333;
+      border: 1px solid #cccccc;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 25px;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    .btn-atras:hover {
+      background-color: #d0d0d0;
+    }
+
+    .articulo-contenedor {
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 6px;
+      padding: 25px;
+      margin-bottom: 20px;
+
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+
+      width: 100%;
+      max-width: 100%;
+    }
+
+    /* 1. Columna Galería de Imágenes (2 o 4 Fotos) */
+    .columna-galeria-articulo {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 320px;
+              flex: 0 0 320px;
+      width: 320px;
+      margin-right: 25px;
+    }
+
+    /* Rejilla de miniaturas para IE11 */
+    .grid-imagenes {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-lines: multiple;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+
+      margin: -4px; /* Compensación de espacio */
+    }
+
+    .foto-item {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 48%;
+              flex: 0 0 48%; /* Hace que quepan 2 imágenes por fila */
+      width: 48%;
+      margin: 1%;
+    }
+
+    .foto-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+      border: 1px solid #eeeeee;
+    }
+
+    /* 2. Columna Central (Cuerpo del Artículo) */
+    .columna-cuerpo-articulo {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 0px;
+              flex: 1 1 0px;
+      
+      width: 100%;
+      min-width: 0;
+      max-width: 100%;
+      margin-right: 25px;
+
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+
+    .titulo-articulo {
+      color: #0078d4;
+      font-size: 1.6em;
+      margin-bottom: 15px;
+      font-weight: bold;
+      border-bottom: 2px solid #0078d4;
+      padding-bottom: 8px;
+    }
+
+    .bloque-seccion-texto {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .subtitulo-destacado {
+      font-size: 1.25em;
+      font-weight: bold;
+      color: #111111;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .texto-normal {
+      color: #555555;
+      font-size: 0.95em;
+      line-height: 1.6;
+      width: 100%;
+      word-wrap: break-word;
+      -ms-word-break: break-all;
+      word-break: break-word;
+    }
+
+    .columna-ficha-tecnica {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 200px;
+              flex: 0 0 200px;
+      width: 200px;
+      
+      background-color: #f9f9f9;
+      border: 1px solid #eaeaea;
+      border-radius: 6px;
+      padding: 18px;
+      font-size: 0.85em;
+      color: #444444;
+    }
+
+    .info-item {
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed #cccccc;
+    }
+
+    .info-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .info-label {
+      font-weight: bold;
+      color: #777777;
+      display: block;
+      margin-bottom: 3px;
+      text-transform: uppercase;
+      font-size: 0.8em;
+    }
+
+    .info-valor {
+      color: #333333;
+      font-weight: bold;
+      word-wrap: break-word;
+    }
+
+    .grupo-acciones {
+      margin-top: 15px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .btn-descarga {
+      display: inline-block;
+      color: #ffffff;
+      background-color: #0078d4;
+      border: 1px solid #005a9e;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 0.95em;
+      padding: 10px 18px;
+      border-radius: 4px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .btn-descarga:hover {
+      background-color: #005a9e;
+    }
+
+    @media (max-width: 768px) {
+      .articulo-contenedor {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 15px !important;
+      }
+
+      .columna-galeria-articulo {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+        -ms-flex: none !important;
+        flex: none !important;
+      }
+
+      .columna-cuerpo-articulo {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+        -ms-flex: none !important;
+        flex: none !important;
+        display: block !important;
+      }
+
+      .columna-ficha-tecnica {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+        -ms-flex: none !important;
+        flex: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>OptiFans</h1>
+    <p>Canal de charlas y anecdotas de OptiJuegos</p>
+  </header>
+
+  <main>
+    <a href="https://sirtailsko.ct.ws/soft_coso.html" class="btn-atras">&larr; Volver</a>
+
+    <article class="articulo-contenedor">
+	  
+      <div class="columna-galeria-articulo">
+        <div class="grid-imagenes">
+          <div class="foto-item">
+            <img src="https://sirtailsko.ct.ws/pic/optifans.png" alt="OptiFans">
+          </div>
+          <div class="foto-item">
+            <img src="https://sirtailsko.ct.ws/pic/optifans.png" alt="OptiFans">
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna 2: Título y Cuerpo del Artículo -->
+      <div class="columna-cuerpo-articulo">
+        <h2 class="titulo-articulo">OptiFans - Podcast Edition</h2>
+        
+        <!-- Bloque 1: Texto grande en negrita + Texto normal -->
+        <div class="bloque-seccion-texto">
+          <h3 class="subtitulo-destacado">Las Novedades, Anecdotas, Charlas Y Mas En Formato PodCasts</h3>
+          <p class="texto-normal">
+            Canal de charlas y anecdotas de OptiJuegos, Optimizada Para Reproducciones De RSS, Creditos A OptiJuegos, Adaptado A PodCast Por SirTailsko, Puede Contener Lenguaje Inapropiado A Veces
+          </p>
+        </div>
+
+        <!-- Bloque 2: Repetición de estructura -->
+        <div class="bloque-seccion-texto">
+          <h3 class="subtitulo-destacado">Episodios Por Ahora?</h3>
+          <p class="texto-normal">
+            Todos, Por Ahora
+          </p>
+        </div>
+		
+        <div class="bloque-seccion-texto">
+          <h3 class="subtitulo-destacado">Instalar?</h3>
+          <p class="texto-normal">
+            Abre Tu Reproductor Compatible Con RSS Favorito, Agregar RSS, Copia El Enlace, Pegalo, Y Listo, lo subi aqui por que no se, el hosting este la issue que tengo originalmente la de ct y el ws
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Columna 3: Ficha Técnica -->
+      <div class="columna-ficha-tecnica">
+        <div class="info-item">
+          <span class="info-label">Categoría</span>
+          <span class="info-valor">PodCast</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Requiere Reproductor</span>
+          <span class="info-valor">Con RSS</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Formato</span>
+          <span class="info-valor">Opus</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Año/Mes</span>
+          <span class="info-valor">2026 Noviembre</span>
+        </div>
+        <div class="grupo-acciones">
+          <a href="#" class="btn-descarga">Copiar RSS</a>
+        </div>
+        <div class="grupo-acciones">
+          <a href="https://f-droid.org/packages/de.danoeh.antennapod/" class="btn-descarga">Descargar AnthennaPod (Android)</a>
+        </div>
+        <div class="grupo-acciones">
+          <a href="https://gpodder.github.io/" class="btn-descarga">Descargar GPodder (Windows Y Mac)</a>
+        </div>
+        <div class="grupo-acciones">
+          <a href="https://apps.gnome.org/app/org.gnome.Podcasts/" class="btn-descarga">Descargar GNOME Podcast (Linux)</a>
+        </div>
+      </div>
+
+    </article>
+
+  </main>
+
+</body>
+</html>

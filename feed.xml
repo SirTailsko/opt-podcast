@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OptiFans - Charlas y anecdotsas de OptiJuegos</title>
+    <link>https://sirtailsko.github.io/opt-podcast/</link>
+    <language>es-ar</language>
+    <description>Podcast de charlas y anecdotas de OptiJuegos</description>
+    <itunes:author>OptiProjects</itunes:author>
+    <itunes:image href="https://sirtailsko.github.io/opt-podcast/optilogo.jpg"/>
+
+    <!-- Episodio 3 -->
+    <item>
+      <title>ESTAN OPTIMIZANDO DISCORD Y EPIC GAMES</title>
+      <description>Hablamos sobre cómo aprovechar hardware reciclado para montar servicios web.</description>
+      <pubDate>Mon, 09 Nov 2026 14:32:00 GMT</pubDate>
+      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep3.opus" length="3478547" type="audio/ogg"/>
+      <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep3.opus</guid>
+      <itunes:duration>18:20</itunes:duration>
+    </item>
+
+    <item>
+      <title>DEBATE DE WINDOWS EXTREMADAMENTE CRITICO CON TOMEX</title>
+      <description>Hablamos sobre cómo aprovechar hardware reciclado para montar servicios web.</description>
+      <pubDate>Fri, 06 Nov 2026 12:13:00 GMT</pubDate>
+      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep2.opus" length="3009528" type="audio/ogg"/>
+      <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep2.opus</guid>
+      <itunes:duration>18:20</itunes:duration>
+    </item>
+
+    <item>
+      <title>PRESENTACION (optimizaciones, foto de perfil, switch 2, rtx 3050, entre otros!!)</title>
+      <description>Nuestra primera prueba transmitiendo audio mediante RSS puro.</description>
+      <pubDate>Thu, 05 Nov 2026 12:28:00 GMT</pubDate>
+      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep1.opus" length="3052534" type="audio/ogg"/>
+      <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep1.opus</guid>
+      <itunes:duration>15:00</itunes:duration>
+    </item>
+
+  </channel>
+</rss>
