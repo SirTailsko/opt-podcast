@@ -2,18 +2,27 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OptiFans - Charlas y anecdotas de OptiJuegos</title>
-    <link>https://sirtailsko.github.io/opt-podcast/</link>
+    <link>https://sirtailsko.ct.ws/projects/optifans/podcast_opt.html</link>
     <language>es-ar</language>
     <description>Podcast de charlas y anecdotas de OptiJuegos</description>
     <itunes:author>OptiProjects</itunes:author>
     <itunes:image href="https://sirtailsko.github.io/opt-podcast/optilogo.jpg"/>
 
-    <!-- Episodio 3 -->
+    <!-- Episodio 4 -->
+    <item>
+      <title>LA VEZ EN QUE HACKEE A MI ESCUELA</title>
+      <description>OptiJuegos Explica Una Anectdota En Que Entre 2023/2024 Por Un Incidente Entre Su Colegio, Como Venganza Termino De Hackear Su Propia Escuela, Explicando De Que Con Herramientas Y Paquetes Filtro Todo, Pero Resulta Que Todo Terminaria Mal (generado por humano)</description>
+      <pubDate>Tue, 10 Nov 2026 22:00:00 GMT</pubDate>
+      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep4.opus" length="2560629" type="audio/ogg"/>
+      <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep4.opus</guid>
+      <itunes:duration>11:54</itunes:duration>
+    </item>
+
     <item>
       <title>ESTAN OPTIMIZANDO DISCORD Y EPIC GAMES</title>
       <description>OptiJuegos analiza una tendencia positiva en la industria del software: el cambio hacia una mayor optimización mediante la reescritura de aplicaciones utilizando el lenguaje de programación Rust, Siendo Los Puntos clave De Que Discord y Epic Games que ambas compañías han comenzado a reconstruir sus aplicaciones de escritorio en Rust para reducir drásticamente el consumo de memoria RAM, En el caso de Discord, la nueva versión promete un consumo mucho menor (aproximadamente 290 MB) frente a la versión tradicional basada en Electron, Rust es un lenguaje de bajo nivel, lo que hace que las aplicaciones sean más eficientes y difíciles de modear, algo que él considera positivo para la estabilidad oficial del software, mencionando que el uso de IA está acelerando estos procesos de "re-codeo" y optimización, El Problema Es Que como muchas aplicaciones modernas (como WhatsApp o incluso sitios web como TikTok) dependen excesivamente de arquitecturas webview pesadas, lo que resulta en un consumo ineficiente de recursos, En conclusión, Opti espera que estos movimientos marquen un precedente para que más empresas abandonen las aplicaciones pesadas basadas en web y vuelvan a desarrollar software nativo más ligero y rápido (generado con gemini ai)</description>
       <pubDate>Mon, 09 Nov 2026 14:32:00 GMT</pubDate>
-      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep3.opus" length="3478547" type="audio/ogg"/>
+      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep3.opus" length="2148335" type="audio/ogg"/>
       <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep3.opus</guid>
       <itunes:duration>05:49</itunes:duration>
     </item>
