@@ -8,7 +8,16 @@
     <itunes:author>OptiProjects</itunes:author>
     <itunes:image href="https://sirtailsko.github.io/opt-podcast/optilogo.jpg"/>
 
-    <!-- Episodio 4 -->
+    <!-- Episodio 5 -->
+    <item>
+      <title>PROBE el ZELDA OOT REMAKE en STREAM en mi PC y ¿exploto?</title>
+      <description>En este video, el creador intenta ejecutar una versión recompilada del clásico Ocarina of Time en la OptiPC para evaluar el rendimiento. A lo largo de la transmisión, comenta varios aspectos técnicos y su experiencia de juego, Siendo A Que el juego, al ser una versión recompilada (no emulada), consume una cantidad considerable de memoria RAM, llegando a utilizar unos 19 GB en momentos clave Y Aunque reconoce que el juego tiene fallos gráficos y momentos de lag, destaca que es "jugable" Y Explora mecánicas básicas como fijar blancos y recoger rupias, comparando ocasionalmente el estilo visual con otros juegos como Minecraft o Crash of the Titans  Y Destaca Problemas técnicos y cierres Y Hacia el final, tras ajustar la configuración de gráficos para intentar optimizar el rendimiento, el juego presenta errores graves que fuerzan al sistema al límite, obligando al usuario a reiniciar la partida Y Finalmente, el video termina con una reflexión sobre la situación de Nintendo respecto a estos proyectos de ingeniería inversa y el cierre de la cuenta del desarrollador original de Hookshot (Generado Con Gemini AI)</description>
+      <pubDate>Sat, 14 Nov 2026 13:25:00 GMT</pubDate>
+      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep5.opus" length="2160649" type="audio/ogg"/>
+      <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep5.opus</guid>
+      <itunes:duration>7:39</itunes:duration>
+    </item>
+
     <item>
       <title>LA VEZ QUE HACKEE AL COLEGIO Y ME SUSPENDIERON</title>
       <description>OptiJuegos Explica Una Anectdota En Que Entre 2023/2024 Por Un Incidente Entre Su Colegio, Como Venganza Termino De Hackear Su Propia Escuela, Explicando De Que Con Herramientas Y Paquetes Filtro Todo, Pero Resulta Que Todo Terminaria Mal (generado por humano)</description>
