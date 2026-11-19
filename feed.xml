@@ -8,7 +8,16 @@
     <itunes:author>OptiProjects</itunes:author>
     <itunes:image href="https://sirtailsko.github.io/opt-podcast/optilogo.jpg"/>
 
-    <!-- Episodio 5 -->
+    <!-- Episodio 6 -->
+    <item>
+      <title>CUANDO SALE GTA 6 PARA PC? DESENCRIPTADO? ¿PORT NO OFICIAL?</title>
+      <description>Opti aborda la especulación y la situación actual sobre el lanzamiento de una posible versión del "GTA 6" para PC (Windows) Donde explora diversos intentos de investigación para encontrar una versión jugable o desencriptada del juego Siendo A Que En Los Intentos de desencriptación, Se menciona que el juego está fuertemente encriptado y que los esfuerzos por acceder a archivos de "Xbox" o "PlayStation" (como archivos PKG) no han dado resultados concretos Y En El Análisis de archivos, Se muestra el uso de programas para analizar IDs de productos y catálogos en servidores, pero se confirma que no hay ninguna versión pública o descargable disponible (al final se pudo pero esta muy encriptado) Y Se Advierte sobre estafas en "Discord" que prometen el juego a la venta, aclarando que no son legítimasY Se concluye que, tras intentar investigar durante todo el día, no hay una solución inmediata y sugiere simplemente esperar el lanzamiento oficial. (Generado Con Gemini AI)</description>
+      <pubDate>Thu, 19 Nov 2026 11:35:00 GMT</pubDate>
+      <enclosure url="https://sirtailsko.github.io/opt-podcast/ep6.opus" length="1354983g" type="audio/ogg"/>
+      <guid isPermaLink="true">https://sirtailsko.github.io/opt-podcast/ep6.opus</guid>
+      <itunes:duration>4:22</itunes:duration>
+    </item>
+
     <item>
       <title>PROBE el ZELDA OOT REMAKE en STREAM en mi PC y ¿exploto?</title>
       <description>En este video, el creador intenta ejecutar una versión recompilada del clásico Ocarina of Time en la OptiPC para evaluar el rendimiento. A lo largo de la transmisión, comenta varios aspectos técnicos y su experiencia de juego, Siendo A Que el juego, al ser una versión recompilada (no emulada), consume una cantidad considerable de memoria RAM, llegando a utilizar unos 19 GB en momentos clave Y Aunque reconoce que el juego tiene fallos gráficos y momentos de lag, destaca que es "jugable" Y Explora mecánicas básicas como fijar blancos y recoger rupias, comparando ocasionalmente el estilo visual con otros juegos como Minecraft o Crash of the Titans  Y Destaca Problemas técnicos y cierres Y Hacia el final, tras ajustar la configuración de gráficos para intentar optimizar el rendimiento, el juego presenta errores graves que fuerzan al sistema al límite, obligando al usuario a reiniciar la partida Y Finalmente, el video termina con una reflexión sobre la situación de Nintendo respecto a estos proyectos de ingeniería inversa y el cierre de la cuenta del desarrollador original de Hookshot (Generado Con Gemini AI)</description>
